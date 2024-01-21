@@ -1,0 +1,12 @@
+{
+    "require": {
+        "cesargb/php-log-rotation": "^2.7",
+        "dragonmantank/cron-expression": "^3.3",
+        "monolog/monolog": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kingsoft\\Monolog\\Handler\\": "src/"
+        }
+    }
+}
